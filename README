@@ -1,1 +1,14 @@
-fizzbuzzの問題のシェルスクリプト
+[[[ fizzbuzzの問題のシェルスクリプト]]]
+
+fizzbuzz.bashに渡した整数が3で割り切れれば"fizz"、5で割り切れれば"buzz"、3と5の両方で割り切れれば"fizzbuzz"をechoする。もし3でも5でも割り切れない場合は渡した整数がechoされる。
+
+使用例：
+$ fizzbuzz.bash 25
+buzz
+$ fizzbuzz.bash 30
+fizzbuzz
+$ fizzbuzz.bash 4
+4
+$ fizzbuzz.bash 99
+fizz
+
